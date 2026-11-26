@@ -52,7 +52,7 @@ ali@field:~$ scale
 
 ### Skills
 
-| | |
+| Area | Skills |
 |---|---|
 | **Frontend** | TypeScript, JavaScript, React, Next.js, Vue, Nuxt 3, Tailwind CSS, Ant Design, HTML5, CSS3 |
 | **Backend** | Node.js, Express, NestJS, PostgreSQL, SQL, MongoDB, Socket.io |
@@ -67,12 +67,12 @@ ali@field:~$ scale
 ```text
 ali@field:~$ work
                 2021  2022  2023  2024  2025  2026
-Codi Tech       ████                                    Full-Stack Developer (bootcamp)
-Docclik            ███████                              Full-Stack Web Developer
-Numbase Group            ████████                       Frontend Engineer
-Skeldus                         ███████                 Frontend Engineer
-Sowlutions                           ████████████       Senior Software Engineer, frontend lead
-SoftMind                                        ████    Senior Software Engineer ◀ now
+Codi Tech       ████                                 Full-Stack Developer (bootcamp)
+Docclik            ███████                           Full-Stack Web Developer
+Numbase Group            ████████                    Frontend Engineer
+Skeldus                         ███████              Frontend Engineer
+Sowlutions                           ████████████    Senior Software Engineer, frontend lead
+SoftMind                                        ████ Senior Software Engineer ◀ now
 ```
 
 - **Sowlutions:** led a team of 3 across several SaaS products. Owned the architecture of a legal operations platform that consolidated 6 modules for 50+ companies and 120,000 users, and led the redesign of a creator platform with 1M+ users.
