@@ -3,11 +3,11 @@
 </a>
 
 <p align="center">
-  <a href="https://alitarraf.dev"><b>alitarraf.dev</b></a>
-  &nbsp;&nbsp;/&nbsp;&nbsp;
-  <a href="https://linkedin.com/in/ali-tarraf-730b9a171">LinkedIn</a>
+  <a href="https://linkedin.com/in/ali-tarraf-730b9a171"><b>LinkedIn</b></a>
   &nbsp;&nbsp;/&nbsp;&nbsp;
   <a href="https://alitarraf.dev/ali-tarraf-resume.pdf">Résumé (PDF)</a>
+  &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="https://alitarraf.dev">alitarraf.dev</a>
 </p>
 
 Five-plus years shipping SaaS platforms that outlive the sprint that made them. I own frontend architecture, the part nobody sees until it holds or doesn't: multi-tenant systems, SSR at scale, and design systems that survive six product teams pulling in six directions. Then I mentor the next engineer to do it without me.
@@ -17,62 +17,75 @@ ali@field:~$ whoami
 
 now        Senior Software Engineer at SoftMind
            SaaS ERP suite used by 1,500+ companies across 8 countries
-before     Sowlutions: led a frontend team of 3, owned the architecture of
-           Haqq.ai (6 modules, 50+ tenants, 120,000 users on one codebase)
-reach      1,000,000+ users on HelloThematic, a creator platform I helped redesign
-uptime     5+ years shipping
+led        a frontend team of 3 at Sowlutions, 50+ pull request reviews a month
+owned      the frontend architecture of a multi-tenant platform for 50+ companies
+worked     directly with the CEO and CTO on architecture and product strategy
+uptime     5+ years shipping, remote teams in New York, Qatar and Canada
 based      Beirut, Lebanon
-off-hours  Google Developer Group organizer, volunteer firefighter since 2015, Muay Thai
+speaks     Arabic (native), English (full professional), French (elementary)
+```
+
+### Scale
+
+```text
+ali@field:~$ scale
+
+1,000,000+   users reached on a creator platform, worldwide
+  120,000    users on a multi-tenant legal AI platform
+      50+    companies served from a single codebase
+        6    business modules consolidated into one application
 ```
 
 ### Impact
 
 <img src="assets/impact.svg" width="100%" alt="Measured impact, ranked: latency down 40% at Numbase Group; load time down 40% at Docclik; scheduling efficiency up 30% at Docclik; reliability up 25% at Skeldus; platform performance up 25% at Docclik; user retention up 20% at Docclik; downtime and bugs down 15% at Skeldus.">
 
-### Things I built in the open
+### How I work
 
-<a href="https://alitarraf.dev">
-  <img src="https://raw.githubusercontent.com/Tarraf2020/Tarraf-Portfolio/main/public/og.png" width="100%" alt="alitarraf.dev preview: ALI TARRAF, Senior Software Engineer, Frontend Architecture">
-</a>
+**Boundaries before features.** Six business modules on one codebase only works if the seams are decided first. Tenants, domains, shared primitives: draw them, then ship inside them.
 
-**[THE FIELD](https://github.com/Tarraf2020/Tarraf-Portfolio)** is my portfolio, built as one continuous WebGL scene: 1,048,576 particles simulated on the GPU that reform as you scroll into the name, the globe, a dependency graph, the impact chart and the career. Vite, TypeScript and hand-written GLSL, with no animation, scroll or physics library. It drops quality tiers on its own when the frame rate dips, and `⌘K` opens a working shell.
+**The render path is a budget.** SSR with Nuxt 3, route-level code splitting, payload discipline. Every millisecond is spent on purpose, and measured after.
 
-[Open the site](https://alitarraf.dev) · [Read how it works](https://github.com/Tarraf2020/Tarraf-Portfolio#how-the-field-works)
+**Patterns are communication.** Singleton, Observer, Facade, higher-order components. They are how three developers agree on the shape of a thing without a meeting.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/Tarraf2020/whisperlan">whisperlan</a></b><br>
-      Terminal chat for everyone on the same WiFi. No server and no account: a group room plus encrypted one-on-ones, in one Python file with zero dependencies. Install with Homebrew and type <code>whisper</code>.
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/Tarraf2020/daftar-releases">Daftar POS</a></b><br>
-      Offline-first point of sale and accounting for shops. Tauri 2 with a Rust core and React UI, SQLite, a real double-entry ledger, USD and LBP prices side by side, and machine-locked Ed25519 licenses. Source is private; installers are public.
-    </td>
-  </tr>
-</table>
+**Review is the architecture.** 50+ pull requests a month. Architecture that lives only in a diagram is a wish; architecture enforced at the diff is real.
+
+### Skills
+
+| | |
+|---|---|
+| **Frontend** | TypeScript, JavaScript, React, Next.js, Vue, Nuxt 3, Tailwind CSS, Ant Design, HTML5, CSS3 |
+| **Backend** | Node.js, Express, NestJS, PostgreSQL, SQL, MongoDB, Socket.io |
+| **DevOps & infra** | Docker, CI/CD, Nginx, Caddy, load balancers, Linux server management, deployments |
+| **Architecture** | Frontend and software architecture, design patterns, SSR, multi-tenant SaaS, responsive and cross-browser |
+| **Leadership** | Technical leadership, team mentoring, code review, technical decision-making, stakeholder management |
+| **AI workflows** | AI-assisted architecture analysis, framework migration planning, custom agents and skills, integrations |
+| **Tooling** | Git, GitHub, Jest, Postman, Google Analytics, Mixpanel, Agile / Scrum |
 
 ### Career
 
 ```text
 ali@field:~$ work
                 2021  2022  2023  2024  2025  2026
-Codi Tech       ████                                    full-stack bootcamp
-Docclik            ███████                              full-stack, healthcare scheduling
-Numbase Group            ████████                       frontend, real-time systems
-Skeldus                         ███████                 frontend, compliance dashboards
-Sowlutions                           ████████████       senior, frontend lead
-SoftMind                                        ████    senior, ERP suite ◀ now
+Codi Tech       ████                                    Full-Stack Developer (bootcamp)
+Docclik            ███████                              Full-Stack Web Developer
+Numbase Group            ████████                       Frontend Engineer
+Skeldus                         ███████                 Frontend Engineer
+Sowlutions                           ████████████       Senior Software Engineer, frontend lead
+SoftMind                                        ████    Senior Software Engineer ◀ now
 ```
 
-### Stack
+- **Sowlutions:** led a team of 3 across several SaaS products. Owned the architecture of a legal operations platform that consolidated 6 modules for 50+ companies and 120,000 users, and led the redesign of a creator platform with 1M+ users.
+- **Skeldus:** built 13+ dashboards and reporting interfaces for a cybersecurity and compliance platform. Reliability up 25%, downtime and bugs down 15%.
+- **Numbase Group:** built real-time chat and notifications with Socket.io, and replaced legacy patterns with a structured architecture that cut latency by 40%.
+- **Docclik:** built live appointment scheduling for a healthcare platform used by thousands of practitioners across Canada. Load time down 40%, retention up 20%.
 
-**Frontend:** TypeScript, Vue, Nuxt 3, React, Next.js, Tailwind CSS, Ant Design<br>
-**Backend:** Node.js, Express, NestJS, PostgreSQL, SQL, MongoDB<br>
-**Infra:** Docker, CI/CD, Nginx, Caddy, Linux servers, VPS deployments<br>
-**Graphics:** WebGL, Three.js, GLSL<br>
-**Practice:** frontend architecture, design patterns, code review (50+ PRs a month), mentoring
+### Education and community
+
+**B.Sc. Computer Science**, American University of Technology, 2017 to 2020<br>
+**Google Developer Group organizer** since 2022: DevFest, Google I/O Extended, university tech sessions<br>
+**Volunteer firefighter**, Lebanese Civil Defense, since 2015. It recalibrates what you consider a production emergency.
 
 ---
 
-<sub>Press <code>⌘K</code> on <a href="https://alitarraf.dev">alitarraf.dev</a>. Two of its commands aren't listed in <code>help</code>.</sub>
+<p align="center"><sub>Building a frontend team, or untangling a large frontend? Reach me on <a href="https://linkedin.com/in/ali-tarraf-730b9a171">LinkedIn</a>.</sub></p>
